@@ -1,4 +1,5 @@
 # rich_toolkit
+ <img src="docs/rich_visualization.gif" width="650"> 
 
 ## Citations
 If you find our work useful in your research, please consider citing:
