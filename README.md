@@ -5,14 +5,14 @@ This is the toolkit for RICH dataset in [Capturing and Inferring Dense Full-Body
 
 The body-scene contact network (BSTRO) is released in another [repo.](https://github.com/paulchhuang/bstro)
 
-## Installing Dependencies
+## Install Dependencies
 ```
 python3 -m venv PATH/2/VENV
 source PATH/2/VENV/bin/activate
 pip install -r requirements.txt
 ```
 
-## Downloading necessary files
+## Download necessary files
 Please download the [RICH dataset](https://rich.is.tue.mpg.de/) and [SMPL-X model](https://smpl-x.is.tue.mpg.de/) from the official websites and organize them following the structure below:
 ```
 ${REPO_DIR}  
