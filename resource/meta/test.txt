@@ -15,8 +15,8 @@ LectureHall_010_sidebalancerun1	LectureHall	scan_yoga_scene_camcoord	010	X	femal
 LectureHall_021_plankjack1	LectureHall	scan_yoga_scene_camcoord	021	X	female	V	V	X
 LectureHall_021_sidebalancerun1	LectureHall	scan_yoga_scene_camcoord	021	X	female	V	V	X
 LectureHall_019_wipingchairs1	LectureHall	scan_chair_scene_camcoord	019	X	female	V	V	X
-LectureHall_009_reparingprojector1	LectureHall	scan_yoga_scene_camcoord	009	X	female	V	X	X
-LectureHall_021_reparingprojector1	LectureHall	scan_yoga_scene_camcoord	021	X	female	V	X	X
+LectureHall_009_021_reparingprojector1	LectureHall	scan_yoga_scene_camcoord	009	X	female	V	X	X
+LectureHall_009_021_reparingprojector1	LectureHall	scan_yoga_scene_camcoord	021	X	female	V	X	X
 ParkingLot2_009_spray1	ParkingLot2	scan_camcoord	009	X	female	V	X	X
 ParkingLot2_009_impro1	ParkingLot2	scan_camcoord	009	X	female	V	X	X
 ParkingLot2_009_impro2	ParkingLot2	scan_camcoord	009	X	female	V	X	X
