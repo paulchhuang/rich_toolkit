@@ -1,3 +1,4 @@
+sequence_name	capture_name	scan_name	id	moving_cam	gender	scene	action/scene-interaction	subjects
 ParkingLot2_017_burpeejump2	ParkingLot2	scan_camcoord	017	V	female	V	V	X
 ParkingLot2_017_burpeejump1	ParkingLot2	scan_camcoord	017	V	female	V	V	X
 ParkingLot2_017_overfence1	ParkingLot2	scan_camcoord	017	V	female	V	V	X
