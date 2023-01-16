@@ -73,7 +73,7 @@ ${REPO_DIR}
     and check the variables `hsc_vert_id_smpl` and `hsc_vert_id_smplx`.
 
 3. Visualize scans and SMPL-X bodies in world frames:
-    The released SMPL-X params and scene scans reside in the coordinates of calibrated multi-camera, where the first camera is conventionally chosen as the reference (R=I, t=0) and thus the ground plans are often not axis-aligned. In addition, we also release `multicam2world` transformations (obtained while scanning the scenes) that transform SMPL-X bodies and scenes to axis-aligned world frames:
+    The released SMPL-X params and the scene scan reside in the calibrated multi-camera coordinate, where the first camera is conventionally chosen as the reference (R=I, t=0) so the ground plane is often not axis-aligned. When an axis-aligned ground plane is required, one can consider transforming bodies and the scene mesh to the world frame defined during the scanning process:
     ```
     python multicam2world.py
     ```
