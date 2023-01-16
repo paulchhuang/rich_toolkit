@@ -47,6 +47,11 @@ ${REPO_DIR}
 |   |   |   |--...
 |   |   |-- val
 |   |   |-- test
+|   |-- multicam2world
+|   |   |-- BBQ_multicam2world.json
+|   |   |-- Gym_multicam2world.json
+|   |   |-- ... 
+|   |   |-- ... 
 |   |-- scan_calibration
 |   |   |-- BBQ
 |   |   |-- Gym
@@ -66,6 +71,14 @@ ${REPO_DIR}
     python hsc_params.py
     ```
     and check the variables `hsc_vert_id_smpl` and `hsc_vert_id_smplx`.
+
+3. Visualize scans and SMPL-X bodies in world frames:
+    The released SMPL-X params and scene scans reside in the coordinates of calibrated multi-camera, where the first camera is conventionally chosen as the reference (R=I, t=0) and thus the ground plans are often not axis-aligned. In addition, we also release `multicam2world` transformations (obtained while scanning the scenes) that transform SMPL-X bodies and scenes to axis-aligned world frames:
+    ```
+    python multicam2world.py
+    ```
+    Visualizing the generated `body_scene_world.ply` in `samples` folder with meshlab, one shall see:
+     <img src="docs/rich_in_worldframe.png" width="650"> 
 
 ## Citations
 If you find our work useful in your research, please consider citing:

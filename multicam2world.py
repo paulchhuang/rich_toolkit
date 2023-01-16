@@ -49,5 +49,5 @@ scene_scan = trimesh.load(f'data/scan_calibration/{SCENE_NAME}/scan_camcoord.ply
 scan = scene_scan + mesh
 print(scan.vertices.shape)
 scan.vertices = cam2scan['c'] * scan.vertices @ rot_mat + translation
-scan.export(f'./tmp.ply')
+scan.export(f'samples/body_scene_world.ply')
 
